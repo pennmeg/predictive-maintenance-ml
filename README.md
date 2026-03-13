@@ -65,7 +65,8 @@ The final Random Forest model was evaluated on its ability to detect actual fail
 
 ## Next Steps
 
-- Address class imbalance — the dataset is heavily skewed toward "No Failure"
+- Address class imbalance — the dataset is heavily skewed toward "No Failure" (completed in v2)
+- Remove unknown and random failure types (completed in v2)
 - Extend the model to predict multiple simultaneous failures per machine
 - Integrate predictions into maintenance dashboards with early warning alerts
 - Recalibrate model as new sensor data becomes available
