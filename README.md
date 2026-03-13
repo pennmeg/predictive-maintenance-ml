@@ -20,7 +20,7 @@ Download the dataset and place `ai4i2020.csv` in the same directory as the noteb
 - `type` — machine quality variant (L, M, H)
 - Failure flags: TWF, HDF, PWF, OSF, RNF
 
-## Approach
+## Approach (v1)
 
 ### Target Variable
 Rather than predicting binary machine failure, the model predicts `primary_failure` — a multi-class target (TWF, OSF, PWF, HDF, RNF, Unknown, No Failure) created by prioritizing failure types when multiple occur simultaneously.
